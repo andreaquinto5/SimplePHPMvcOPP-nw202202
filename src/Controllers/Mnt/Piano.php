@@ -6,6 +6,7 @@
  * @category Controller
  * @package  Controllers\Mnt
  * @author   Orlando J Betancourth <orlando.betancourth@gmail.com>
+ *           Colaboración con alumna: Andrea Nicold Aleman Quinto <an_alemanq@unicah.edu>
  * @license  Comercial http://
  * @version  CVS:1.0.0
  * @link     http://url.com
@@ -28,6 +29,7 @@ use Dao\Mnt\Pianos;
  * @category Public
  * @package  Controllers\Mnt;
  * @author   Orlando J Betancourth <orlando.betancourth@gmail.com>
+ *           Colaboración con alumna: Andrea Nicold Aleman Quinto <an_alemanq@unicah.edu>
  * @license  MIT http://
  * @link     http://
  */
@@ -118,8 +120,7 @@ class Piano extends PublicController
     }
     private function procesarPost()
     {
-        // Validar la entrada de Datos
-        //  Todos valor puede y sera usando en contra del sistema
+        
         $hasErrors = false;
         \Utilities\ArrUtils::mergeArrayTo($_POST, $this->viewData);
         if (isset($_SESSION[$this->name . "crsf_token"])

@@ -6,6 +6,7 @@
  * @category Controller
  * @package  Controllers\Mnt
  * @author   Orlando J Betancourth <orlando.betancourth@gmail.com>
+ *           Colaboración con alumna: Andrea Nicold Aleman Quinto <an_alemanq@unicah.edu>
  * @license  Comercial http://
  * @version  CVS:1.0.0
  * @link     http://url.com
@@ -25,6 +26,7 @@ use Views\Renderer;
  * @category Public
  * @package  Controllers\Mnt;
  * @author   Orlando J Betancourth <orlando.betancourth@gmail.com>
+ *           Colaboración con alumna: Andrea Nicold Aleman Quinto <an_alemanq@unicah.edu>
  * @license  MIT http://
  * @link     http://
  */

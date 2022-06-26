@@ -6,6 +6,7 @@
  * @category Data_Model
  * @package  Models${1:modelo}
  * @author   Orlando J Betancourth <orlando.betancourth@gmail.com>
+ *           Colaboración con alumna: Andrea Nicold Aleman Quinto <an_alemanq@unicah.edu>
  * @license  Comercial http://
  *
  * @version 1.0.0
@@ -23,6 +24,7 @@ use Dao\Table;
  * @category Data_Model
  * @package  Dao.Table
  * @author   Orlando J Betancourth <orlando.betancourth@gmail.com>
+ *           Colaboración con alumna: Andrea Nicold Aleman Quinto <an_alemanq@unicah.edu>
  * @license  Comercial http://
  *
  * @link http://url.com
